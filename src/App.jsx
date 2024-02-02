@@ -62,7 +62,7 @@ const App = () => {
     );
   }
   
-  console.log(selectedCategory);
+  
   const result = filteredData(products, selectedCategory, query);
   return (
     <>
